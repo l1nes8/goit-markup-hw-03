@@ -31,9 +31,13 @@ ul {
 
     /* --primary-text-color -#2E2F42; */
     /* --title-text-color- #434455; */
+    /* --background-color: #404BBF;
+    --white-color: #FFFFFF; */
 :root {
     --primary-text-color: #2E2F42;
     --title-text-color: #434455;
+    --background-color: #404BBF;
+    --white-color: #FFFFFF;
 }
 
 /* header */
@@ -85,7 +89,7 @@ ul {
 }
 
 .hero-title { 
-    color: #FFFFFF;
+    color: var(--white-color);
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -94,7 +98,7 @@ ul {
 }
 
 .hero-button {
-    color: #FFFFFF;
+    color: var(--white-color);
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -107,7 +111,7 @@ ul {
 }
 
 .hero-button:hover, .hero-button:focus {
-    background-color: #404BBF;
+    background-color: var(--background-color)
 }
 
 /* tactics */
@@ -159,7 +163,7 @@ ul {
 }
 
 .photo-team {
-    background-color: #FFFFFF ;
+    background-color: var(--white-color);
 }
 
 /* .team-profession {
@@ -180,9 +184,9 @@ ul {
 }
 
 .portfolio-button:hover, .portfolio-button:focus {
-    color: #FFFFFF;
-    background-color:  #404BBF;
-}
+    color: var(--white-color);
+    background-color:  var(--background-color)
+}    
 
 .img-name {
     color: var(--primary-text-color);
