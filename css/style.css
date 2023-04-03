@@ -29,6 +29,15 @@ ul {
     text-decoration: none;
 }
 
+.container {
+    width: 1128px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
     /* --primary-text-color -#2E2F42; */
     /* --title-text-color- #434455; */
     /* --background-color: #404BBF;
