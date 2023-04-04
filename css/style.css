@@ -8,12 +8,14 @@ body {
     line-height: 1.5; 
 }
 
-ul {
-   list-style: none; 
-}
-
 .link {
     text-decoration: none;
+ }
+
+.list {
+   list-style: none; 
+   margin: 0;
+   padding: 0;
 }
 
 .link:hover, .link:focus {
@@ -33,6 +35,7 @@ ul {
     width: 1128px;
     margin-left: auto;
     margin-right: auto;
+    /* outline: 2px solid tomato; */
 }
 
 
@@ -95,6 +98,7 @@ ul {
 /* hero */
 .hero {
     background-color: #2e2f42;
+    text-align: center;
 }
 
 .hero-title { 
@@ -102,8 +106,9 @@ ul {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    margin-bottom: 48;
+    margin-top: 0;
 }
 
 .hero-button {
@@ -112,11 +117,10 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
+    display: inline-block;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .hero-button:hover, .hero-button:focus {
@@ -125,12 +129,18 @@ ul {
 
 /* tactics */
 
+.tactics {
+    padding-bottom: 120px;
+}
+
 .tactics-title {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-top: 0;
+    margin-bottom: 8px;
 }
 
 /* .tactics-text {
