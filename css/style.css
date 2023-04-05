@@ -35,7 +35,7 @@ body {
     width: 1128px;
     margin-left: auto;
     margin-right: auto;
-    /* outline: 2px solid tomato; */
+     outline: 2px solid tomato; 
 }
 
 
@@ -99,6 +99,8 @@ body {
 .hero {
     background-color: #2e2f42;
     text-align: center;
+    margin-bottom: 120px;
+    
 }
 
 .hero-title { 
@@ -107,8 +109,11 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    margin-bottom: 48;
+    margin-bottom: 48px;
     margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 496px;
 }
 
 .hero-button {
@@ -121,6 +126,8 @@ body {
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
     cursor: pointer;
+    width: 169px;
+    height: 56px;
 }
 
 .hero-button:hover, .hero-button:focus {
@@ -130,7 +137,7 @@ body {
 /* tactics */
 
 .tactics {
-    padding-bottom: 120px;
+    margin-bottom: 120px;
 }
 
 .tactics-title {
@@ -155,6 +162,7 @@ body {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 /* Our Team */
