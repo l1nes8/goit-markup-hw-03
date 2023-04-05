@@ -33,18 +33,20 @@ body {
 
 .container {
     width: 1128px;
-    margin-left: auto;
-    margin-right: auto;
-     outline: 2px solid tomato; 
+    margin: 0 auto;
+    padding: 0 20px;
+      outline: 1px solid tomato;  
 }
 
 
-
+img{
+    display:block;
+}   
 
     /* --primary-text-color -#2E2F42; */
     /* --title-text-color- #434455; */
-    /* --background-color: #404BBF;
-    --white-color: #FFFFFF; */
+    /* --background-color: #404BBF; */
+    /* --white-color: #FFFFFF; */
 :root {
     --primary-text-color: #2E2F42;
     --title-text-color: #434455;
@@ -52,7 +54,7 @@ body {
     --white-color: #FFFFFF;
 }
 
-/* header */
+ /* logo */
 .logo {
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
@@ -60,9 +62,11 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    text-transform: uppercase
+    text-transform: uppercase;
+    width: 115px;
 }   
 
+/* header */
 .logo-header-studio {
     color: var(--primary-text-color);
 }
@@ -80,16 +84,21 @@ body {
 
 .footer {
     background-color: #2E2F42;
+    padding: 106px 0;
 }
 
 .logo-footer-studio {
     color: #F4F4FD;
+    margin-bottom: 17.5px;
+    display: inline-block;
 }
 
 .title-footer {
     color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
+    width: 264px;
+    margin-top: 0;
 }
 
 
@@ -155,6 +164,10 @@ body {
 
 /* What are we doing */
 
+.actions {
+    margin-bottom: 120px;
+}
+
 .our-actions {
     color: var(--primary-text-color);
     font-weight: 700;
@@ -168,6 +181,7 @@ body {
 /* Our Team */
 .team {
     background-color: #F4F4FD;
+    margin-bottom: 120px;
 }
 
 .our-team { 
@@ -178,6 +192,8 @@ body {
     text-align: center;  
     text-transform: capitalize;
     letter-spacing: 0.02em;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 
 .team-name {
@@ -186,7 +202,8 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    /* text-align: center; */
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .photo-team {
@@ -197,6 +214,10 @@ body {
 } */
 
 /* main Portfolio */
+.portfoli {
+    margin-bottom: 120px;
+}
+
 
 .portfolio-button {
     color: #4D5AE5;
