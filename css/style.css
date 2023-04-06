@@ -12,14 +12,14 @@ body {
     text-decoration: none;
  }
 
+ .link:hover, .link:focus {
+    color: #404bbf;
+}
+
 .list {
    list-style: none; 
    margin: 0;
    padding: 0;
-}
-
-.link:hover, .link:focus {
-    color: #404bbf;
 }
 
 .list a {
@@ -31,17 +31,19 @@ body {
     text-decoration: none;
 }
 
-.container {
-    width: 1128px;
-    margin: 0 auto;
-    padding: 0 20px;
-      outline: 1px solid tomato;  
-}
-
-
 img{
     display:block;
-}   
+}  
+
+.container {
+    width: 1128px;
+    margin-left: auto;
+    margin-right: auto;   
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px solid tomato;  
+}
+
 
     /* --primary-text-color -#2E2F42; */
     /* --title-text-color- #434455; */
@@ -57,19 +59,21 @@ img{
  /* logo */
 .logo {
     color: #4D5AE5;
-    font-family: Raleway, sans-serif;
-    letter-spacing: 0.03em;
+    
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17;
+    letter-spacing: 0.03em;
+    font-family: Raleway, sans-serif;
     text-transform: uppercase;
+    
     width: 115px;
+    line-height: 1.17;
+   
 }   
 
 /* header */
 .logo-header-studio {
     color: var(--primary-text-color);
-
 }
 
 .contacts a {
@@ -80,6 +84,25 @@ img{
     font-style: normal
 }
 
+.nav-main {
+    display: flex;
+}
+
+.nav-address {
+    display: flex;
+}
+
+.nav-main .item:not(:first-child), .nav-address .item:not(:first-child) {
+    margin-left: 40px;
+}
+
+.nav-main .item:first-child {
+ margin-left: 76px;
+}
+
+.nav-address .item:first-child {
+    margin-left: 288px;
+}
 
 /* footer */
 
@@ -96,9 +119,11 @@ img{
 
 .title-footer {
     color: #F4F4FD;
+    
     font-size: 16px;
-    line-height: 1.5;
+    
     width: 264px;
+    line-height: 1.5;
     margin-top: 0;
 }
 
@@ -115,29 +140,35 @@ img{
 
 .hero-title { 
     color: var(--white-color);
+    
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    
+    width: 496px;
     margin-bottom: 48px;
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    width: 496px;
 }
 
 .hero-button {
     color: var(--white-color);
+    background-color: #4D5AE5;
+    
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: inline-block;
     letter-spacing: 0.04em;
-    background-color: #4D5AE5;
-    cursor: pointer;
-    width: 169px;
+    
+    
+     width: 169px;
     height: 56px;
+
+    cursor: pointer;
+    display: inline-block;
 }
 
 .hero-button:hover, .hero-button:focus {
@@ -152,16 +183,29 @@ img{
 
 .tactics-title {
     color: var(--primary-text-color);
+    
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    
     margin-top: 0;
     margin-bottom: 8px;
 }
 
-/* .tactics-text {
-} */
+.tactics-text {
+    width: 264px;
+} 
+
+.text-content {
+    display: flex;
+}
+
+.text-content .item:not(:first-child) {
+    margin-left: 24px;
+
+}
+
 
 /* What are we doing */
 
@@ -171,12 +215,15 @@ img{
 
 .our-actions {
     color: var(--primary-text-color);
+    
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+   
+    margin-bottom: 72px;
+
     text-align: center;
     text-transform: capitalize;
-    margin-bottom: 72px;
 }
 
 /* Our Team */
@@ -187,22 +234,27 @@ img{
 
 .our-team { 
     color: var(--primary-text-color);
+    
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;  
-    text-transform: capitalize;
     letter-spacing: 0.02em;
+
     padding-top: 120px;
     padding-bottom: 72px;
+
+    text-align: center;  
+    text-transform: capitalize;
 }
 
 .team-name {
     color: var(--primary-text-color);
+    
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    
     margin-top: 32px;
     margin-bottom: 8px;
 }
@@ -224,11 +276,13 @@ img{
     color: #4D5AE5;
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
+    
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+   
     cursor: pointer;
 }
 
