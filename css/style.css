@@ -69,13 +69,14 @@ img{
 /* header */
 .logo-header-studio {
     color: var(--primary-text-color);
+
 }
 
-.nav-address a {
+.contacts a {
     color: var(--title-text-color);
 }
 
-.nav-address {
+.contacts {
     font-style: normal
 }
 
