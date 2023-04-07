@@ -10,8 +10,6 @@ body {
 
 .link {
     text-decoration: none;
-    padding-top: 24px;
-    padding-bottom: 24px;
  }
 
  .link:hover, .link:focus {
@@ -86,8 +84,6 @@ img{
 
 .logo-header-studio {
     color: var(--primary-text-color);
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .contacts a {
