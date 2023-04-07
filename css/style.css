@@ -99,6 +99,17 @@ img{
     gap: 40px;
 }
 
+.nav-main .item {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.nav-address {
+    display: flex;
+    gap: 40px;
+
+}
+
 
 /* footer */
 
