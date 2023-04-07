@@ -71,6 +71,7 @@ img{
     
     width: 115px;
     line-height: 1.17;
+    margin-right: 76px;
    
 }   
 
@@ -94,7 +95,8 @@ img{
 
 .nav-main {
     display: flex;
-    align-items: center
+    align-items: center;
+    gap: 40px;
 }
 
 
