@@ -84,6 +84,8 @@ img{
 
 .logo-header-studio {
     color: var(--primary-text-color);
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .contacts a {
