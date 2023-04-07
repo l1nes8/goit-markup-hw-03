@@ -36,12 +36,15 @@ img{
 }  
 
 .container {
-    width: 1128px;
-    margin-left: auto;
-    margin-right: auto;   
+    width: 1158px;
+    display: flex;
+    align-items: center;
+    
     padding-left: 15px;
     padding-right: 15px;
-    outline: 1px solid tomato;  
+    margin-left: auto;
+    margin-right: auto;   
+    /* outline: 1px solid tomato; */
 }
 
 
@@ -72,6 +75,11 @@ img{
 }   
 
 /* header */
+
+.header {
+    border-bottom: 1px solid #e7e9fc
+}
+
 .logo-header-studio {
     color: var(--primary-text-color);
 }
@@ -86,23 +94,9 @@ img{
 
 .nav-main {
     display: flex;
+    align-items: center
 }
 
-.nav-address {
-    display: flex;
-}
-
-.nav-main .item:not(:first-child), .nav-address .item:not(:first-child) {
-    margin-left: 40px;
-}
-
-.nav-main .item:first-child {
- margin-left: 76px;
-}
-
-.nav-address .item:first-child {
-    margin-left: 288px;
-}
 
 /* footer */
 
