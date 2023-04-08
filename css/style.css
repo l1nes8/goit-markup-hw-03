@@ -137,7 +137,7 @@ img{
 /* hero */
 .hero {
     background-color: #2e2f42;
-    text-align: center;
+    text-align: center; 
     padding-top: 188px;
     padding-bottom: 188px;
     
@@ -152,6 +152,7 @@ img{
     letter-spacing: 0.02em;
     
     max-width: 496px;
+    
     margin-bottom: 48px;
     margin-top: 0;
     margin-left: auto;
@@ -210,6 +211,10 @@ img{
 .tactics-content {
     display: flex;
     gap: 24px;
+}
+
+.tactics-content .item {
+    width: calc((100% - 72px) / 4);
 }
 
 
