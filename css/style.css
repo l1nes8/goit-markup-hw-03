@@ -138,7 +138,6 @@ img{
 .hero {
     background-color: #2e2f42;
     text-align: center;
-    margin-bottom: 120px;
     padding-top: 188px;
     padding-bottom: 188px;
     
@@ -188,7 +187,8 @@ img{
 /* tactics */
 
 .tactics {
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .tactics-title {
@@ -207,11 +207,8 @@ img{
     width: 264px;
 } 
 
-.text-tactics {
+.tactics-content {
     display: flex;
-}
-
-.text-tactics .item {
     gap: 24px;
 }
 
