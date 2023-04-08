@@ -277,9 +277,11 @@ img{
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
 
     padding-top: 120px;
     padding-bottom: 72px;
+    margin-bottom: 120px;
 
     text-align: center;  
     text-transform: capitalize;
@@ -293,8 +295,17 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     
+    text-align: center;
     margin-top: 32px;
     margin-bottom: 8px;
+}
+
+.team-profession {
+    text-align: center;
+}
+
+.employees {
+    padding: 32px 16px;
 }
 
 .img-employees {
