@@ -133,7 +133,6 @@ img{
 
 .logo-footer-studio {
     color: #F4F4FD;
-    margin-bottom: 17.5px;
     display: inline-block;
 }
 
@@ -238,7 +237,7 @@ img{
 /* What are we doing */
 
 .actions {
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 
 .our-actions {
@@ -252,6 +251,11 @@ img{
 
     text-align: center;
     text-transform: capitalize;
+}
+
+.img-actions {
+    display: flex;
+    gap: 24px;
 }
 
 /* Our Team */
