@@ -49,6 +49,10 @@ img{
     outline: 1px solid tomato; 
 }
 
+.not-flex {
+    display: flex;
+}
+
 
     /* --primary-text-color -#2E2F42; */
     /* --title-text-color- #434455; */
