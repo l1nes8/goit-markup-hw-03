@@ -46,7 +46,7 @@ img{
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;   
-    /* outline: 1px solid tomato; */
+    outline: 1px solid tomato; 
 }
 
 
@@ -59,6 +59,7 @@ img{
     --title-text-color: #434455;
     --background-color: #404BBF;
     --white-color: #FFFFFF;
+    --background-color-button: #4d5ae5;
 }
 
  /* logo */
@@ -100,7 +101,6 @@ img{
     align-items: center;
     gap: 40px;
 }
-
 
 .nav-address {
     display: flex;
@@ -150,7 +150,7 @@ img{
     line-height: 1.07;
     letter-spacing: 0.02em;
     
-    width: 496px;
+    max-width: 496px;
     margin-bottom: 48px;
     margin-top: 0;
     margin-left: auto;
@@ -159,20 +159,23 @@ img{
 
 .hero-button {
     color: var(--white-color);
-    background-color: #4D5AE5;
+    background-color: var(--background-color-button);
     
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    border-radius: 4px;
     
     
-     width: 169px;
+    min-width: 169px;
     height: 56px;
 
+    border: none;
     cursor: pointer;
     display: inline-block;
+    display: block;
 }
 
 .hero-button:hover, .hero-button:focus {
@@ -201,14 +204,14 @@ img{
     width: 264px;
 } 
 
-.text-content {
+.text-tactics {
     display: flex;
 }
 
-.text-content .item:not(:first-child) {
-    margin-left: 24px;
-
+.text-tactics .item {
+    gap: 24px;
 }
+
 
 
 /* What are we doing */
