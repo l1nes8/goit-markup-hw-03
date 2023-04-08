@@ -173,10 +173,11 @@ img{
     
     min-width: 169px;
     height: 56px;
+    margin-left: auto;
+    margin-right: auto;
 
     border: none;
     cursor: pointer;
-    display: inline-block;
     display: block;
 }
 
