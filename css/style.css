@@ -45,7 +45,7 @@ img{
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;   
-    outline: 1px solid tomato; 
+    /* outline: 1px solid tomato;  */
 }
 
 .not-flex {
