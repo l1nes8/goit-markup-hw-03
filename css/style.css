@@ -265,7 +265,9 @@ img{
 /* Our Team */
 .team {
     background-color: #F4F4FD;
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
 }
 
 .our-team { 
@@ -295,8 +297,14 @@ img{
     margin-bottom: 8px;
 }
 
+.img-employees {
+    display: flex;
+    gap: 24px;
+}
+
 .photo-team {
     background-color: var(--white-color);
+    width: calc((100%-72px) / 4);
 }
 
 /* .team-profession {
