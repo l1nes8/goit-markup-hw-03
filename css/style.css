@@ -63,7 +63,7 @@ img{
 }
 
  /* logo */
-.logo {
+.logo-header {
     color: #4D5AE5;
     
     font-weight: 800;
@@ -75,6 +75,22 @@ img{
     width: 115px;
     line-height: 1.17;
     margin-right: 76px;
+}   
+
+.logo-footer {
+    color: #4D5AE5;
+    
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    
+    width: 115px;
+    line-height: 1.17;
+    margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
 }   
 
 /* header */
@@ -112,7 +128,7 @@ img{
 
 .footer {
     background-color: #2E2F42;
-    padding: 106px 0;
+    padding: 100px 0;
 }
 
 .logo-footer-studio {
