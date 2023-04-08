@@ -282,9 +282,9 @@ img{
     gap: 24px;
 }
 
-.photo-team {
+.img-employees .item {
     background-color: var(--white-color);
-    width: calc((100%-72px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .our-team { 
