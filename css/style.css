@@ -48,6 +48,15 @@ img{
      /* outline: 1px solid tomato;   */
 }
 
+.container-none-padding {
+    width: 1158px;
+    align-items: center;
+    
+    margin-left: auto;
+    margin-right: auto;   
+     /* outline: 1px solid tomato;   */
+}
+
 .not-flex {
     display: flex;
 }
@@ -94,7 +103,9 @@ img{
     
     margin-right: 76px;
     margin-bottom: 16px;
+    
     display: inline-block;
+    text-decoration: none;
 }   
 
 /* header */
@@ -306,7 +317,7 @@ img{
     letter-spacing: 0.02em;
     text-align: center;
 
-    padding-top: 120px;
+    
     margin-bottom: 72px; 
 
     text-align: center;  
