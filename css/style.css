@@ -48,15 +48,6 @@ img{
      /* outline: 1px solid tomato;   */
 }
 
-.container-none-padding {
-    width: 1158px;
-    align-items: center;
-    
-    margin-left: auto;
-    margin-right: auto;   
-     /* outline: 1px solid tomato;   */
-}
-
 .not-flex {
     display: flex;
 }
