@@ -83,7 +83,6 @@ img{
     
     width: 115px;
     line-height: 1.17;
-    margin-right: 76px;
 }   
 
 .logo-footer {
@@ -98,8 +97,8 @@ img{
     width: 115px;
     line-height: 1.17;
     
-    margin-right: 76px;
     margin-bottom: 16px;
+    
     
     display: inline-block;
     text-decoration: none;
@@ -155,7 +154,6 @@ img{
     
     width: 264px;
     line-height: 1.5;
-    margin-top: 0;
 }
 
 
