@@ -83,6 +83,7 @@ img{
     
     width: 115px;
     line-height: 1.17;
+    margin-right: 76px;
 }   
 
 .logo-footer {
@@ -123,10 +124,16 @@ img{
     margin-left: auto;
 }
 
+
+
 .nav-main {
     display: flex;
     align-items: center;
     gap: 40px;
+}
+
+.nav-main:first-child {
+    gap: 0;
 }
 
 .nav-address {
